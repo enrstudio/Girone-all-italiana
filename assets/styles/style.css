@@ -3,7 +3,75 @@
     src: url(../fonts/perfect_dos_vga_437/DOS_VGA.ttf);
   }
 
+@font-face {
+    font-family: BIOS;
+    src: url(../fonts/ultimate_oldschool_pc_font_pack_v1.01/Px437/Px437_AMI_BIOS.ttf);
+  }
+
 body, html{
-    font-family: DOS;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+    vertical-align: baseline;
+    font-family: BIOS;
+
 }
-  
+
+h1{
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    width: 97%;
+}
+
+.nav{
+    display: flex;
+    height: 3vh;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.title_group{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+    display: flex;
+    height: 10vh;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-size: 2rem;
+    color: yellow;
+    background-image:
+        linear-gradient(
+            blue 50%, black 50%
+        );
+    font-weight: 900;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    background-color: lime;
+    width: 28.5%;
+    justify-content: space-around;
+}
+
+.menu a{
+    padding-left: 3vh;
+}
