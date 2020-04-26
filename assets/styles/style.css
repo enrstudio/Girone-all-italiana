@@ -1,0 +1,9 @@
+@font-face {
+    font-family: DOS_VGA;
+    src: url(/assets/fonts/perfect_dos_vga_437/Perfect\ DOS\ VGA\ 437.ttf);
+  }
+
+body, html{
+    font-family: DOS_VGA;
+}
+  
