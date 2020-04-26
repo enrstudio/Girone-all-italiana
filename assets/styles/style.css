@@ -1,6 +1,6 @@
 @font-face {
     font-family: DOS_VGA;
-    src: url(/assets/fonts/perfect_dos_vga_437/DOS_VGA.ttf);
+    src: url(../fonts/perfect_dos_vga_437/DOS_VGA.ttf) format('truuetype');
   }
 
 body, html{
